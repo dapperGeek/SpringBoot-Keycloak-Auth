@@ -45,10 +45,10 @@ public class KeycloakAuthService {
     @Value("${app.keycloak.master.realm}")
     private String keycloakMasterRealm;
 
-    @Value("${app.keycloak.master.realm-username}")
+    @Value("${app.keycloak.admin-username}")
     private String keycloakMasterRealmUsername;
 
-    @Value("${app.keycloak.master.realm-password}")
+    @Value("${app.keycloak.admin-password}")
     private String keycloakMasterRealmPassword;
 
     @Value("${spring.security.oauth2.client.registration.keycloak.client-id}")
